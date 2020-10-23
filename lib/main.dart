@@ -8,6 +8,7 @@ import 'package:hair_style_design_app/Expanded_Wid.dart';
 import 'AllAnimationDemo.dart';
 import 'AnimatedSwitcherDemo.dart';
 import 'AnimatedSwitcherDemo_2.dart';
+import 'AnimationCrossFadeDemo.dart';
 import 'AspectRatioDemo.dart';
 import 'ClipPathDemoExample.dart';
 import 'ClipPathExample_2.dart';
@@ -79,7 +80,8 @@ class MyApp extends StatelessWidget {
       // home: AllAnimationDemo(),
       // home: IndexedStackDemo(),
       // home: FractionallySizedBoxDemo(),
-      home: SliderDemo(),
+      // home: SliderDemo(),
+      home: AnimationCrossFadeDemo(),
     );
   }
 }

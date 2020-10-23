@@ -13,7 +13,8 @@ class _TestingWidgetState extends State<TestingWidget> {
       appBar: AppBar(
         title: Text("test"),
       ),
-      body:SizedBox.expand(
+      body:
+      SizedBox.expand(
         child: Container(
           color: Colors.greenAccent,
           child: Column(
