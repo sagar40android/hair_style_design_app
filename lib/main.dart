@@ -13,6 +13,7 @@ import 'ClipPathDemoExample.dart';
 import 'ClipPathExample_2.dart';
 import 'ConstraintLayoutExample.dart';
 import 'DividerDemo.dart';
+import 'FractionallySizedBoxDemo.dart';
 import 'ImageStylingDemo.dart';
 import 'IndexedStackDemo.dart';
 import 'LimitedBoxExample.dart';
@@ -75,7 +76,8 @@ class MyApp extends StatelessWidget {
       // home: AnimatedSwitcherDemo_2(),
       // home: PositionAnimationDemo(),
       // home: AllAnimationDemo(),
-      home: IndexedStackDemo(),
+      // home: IndexedStackDemo(),
+      home: FractionallySizedBoxDemo(),
     );
   }
 }
