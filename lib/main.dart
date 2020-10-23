@@ -29,6 +29,7 @@ import 'MyValueListenable_2.dart';
 import 'Opacity_Animated.dart';
 import 'PositionAnimationDemo.dart';
 import 'ReorderedListExample.dart';
+import 'SliderDemo.dart';
 import 'TestingWidget.dart';
 
 void main() {
@@ -77,7 +78,8 @@ class MyApp extends StatelessWidget {
       // home: PositionAnimationDemo(),
       // home: AllAnimationDemo(),
       // home: IndexedStackDemo(),
-      home: FractionallySizedBoxDemo(),
+      // home: FractionallySizedBoxDemo(),
+      home: SliderDemo(),
     );
   }
 }
