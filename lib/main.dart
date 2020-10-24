@@ -33,6 +33,8 @@ import 'PositionAnimationDemo.dart';
 import 'ReorderedListExample.dart';
 import 'SliderDemo.dart';
 import 'TestingWidget.dart';
+import 'ToggleButtonDemo.dart';
+import 'TwinAnimationBuilderDemo.dart';
 
 void main() {
   runApp(MyApp());
@@ -83,7 +85,9 @@ class MyApp extends StatelessWidget {
       // home: FractionallySizedBoxDemo(),
       // home: SliderDemo(),
       // home: AnimationCrossFadeDemo(),
-      home: ColorFilterDemo(),
+      // home: ColorFilterDemo(),
+      // home: ToggleButtonDemo(),
+      home: TwinAnimationBuilderDemo(),
     );
   }
 }
