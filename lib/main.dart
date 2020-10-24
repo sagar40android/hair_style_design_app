@@ -12,6 +12,7 @@ import 'AnimationCrossFadeDemo.dart';
 import 'AspectRatioDemo.dart';
 import 'ClipPathDemoExample.dart';
 import 'ClipPathExample_2.dart';
+import 'ColorFilterDemo.dart';
 import 'ConstraintLayoutExample.dart';
 import 'DividerDemo.dart';
 import 'FractionallySizedBoxDemo.dart';
@@ -81,7 +82,8 @@ class MyApp extends StatelessWidget {
       // home: IndexedStackDemo(),
       // home: FractionallySizedBoxDemo(),
       // home: SliderDemo(),
-      home: AnimationCrossFadeDemo(),
+      // home: AnimationCrossFadeDemo(),
+      home: ColorFilterDemo(),
     );
   }
 }
