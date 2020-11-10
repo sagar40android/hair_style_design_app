@@ -10,6 +10,7 @@ import 'AnimatedSwitcherDemo.dart';
 import 'AnimatedSwitcherDemo_2.dart';
 import 'AnimationCrossFadeDemo.dart';
 import 'AspectRatioDemo.dart';
+import 'CameraDemo.dart';
 import 'ClipPathDemoExample.dart';
 import 'ClipPathExample_2.dart';
 import 'ColorFilterDemo.dart';
@@ -95,7 +96,8 @@ class MyApp extends StatelessWidget {
       // home: DefaultTabBarViewDemo(),
       // home: TabBarViewDemo(),
       // home: ListWheelScrollViewDemo(),
-      home: NotificationListenerWidgetDemo(),
+      // home: NotificationListenerWidgetDemo(),
+      home: CameraDemo(),
     );
   }
 }
